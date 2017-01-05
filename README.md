@@ -1,5 +1,5 @@
 1. Устанавливаем jQuery;
-2. **Action и **method** тот же, что был и без Ajax;
+2. **Action** и **method** тот же, что был и без Ajax;
 3. Подключаем AjaxForm.js.
 
 _________
