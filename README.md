@@ -1,7 +1,7 @@
-1. Set the jquery;
-2. Action and method the same like without ajax;
-3. Set the AjaxForm.js.
+1. Устанавливаем jQuery;
+2. **Action и **method** тот же, что был и без Ajax;
+3. Подключаем AjaxForm.js.
 
-_
+_________
 
-© Mikhail Semin, 2016
+*Сделано с любовью, автор: [Михаил Семин](http://bifot.ru).*

@@ -1,15 +1,23 @@
-$(function() {
-    $('form').submit(function(e) {
-        var $form = $(this);
-        $.ajax({
-          type: $form.attr('method'),
-          url: $form.attr('action'),
-          data: $form.serialize()
-        }).done(function() {
-            // code if form was successfully sent
-        }).fail(function() {
-            // code if form was failed
-        });
-        e.preventDefault(); 
-     });
+$(() => {
+  $("form").submit((e) => {
+    var $form = $(this);
+
+    $.ajax({
+      type: $form.attr("method"),
+      url: $form.attr("action"),
+      data: $form.serialize()
+    }).done(() => {
+      // Код, если форма успешно отправлена
+      // Например, alert о статусе
+
+      alert("Успешно!");
+    }).fail(() => {
+      // Код, если форма не отправлена
+      // Например, alert о статусе
+
+      alert("Failed");
+    });
+    
+    e.preventDefault();
+  });
 });
