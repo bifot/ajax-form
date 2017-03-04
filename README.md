@@ -1,7 +1,23 @@
-1. Устанавливаем jQuery;
-2. **Action** и **method** тот же, что был и без Ajax;
-3. Подключаем AjaxForm.js.
+# Ajax Form
+
+Simple script for submitting forms without reload page.
+
+## Example
+
+```
+<form action="handler.php">
+  <input type="text" placeholder="Who are you?">
+  <input type="submit">
+</form>
+
+...
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+<script src"js/ajax.form.js">
+```
+
+Now any forms will be sending without page reload.
 
 _________
 
-*Сделано с любовью, автор: [Михаил Семин](http://bifot.ru).*
+*Made with love by [Mikhail Semin](http://bifot.ru).*

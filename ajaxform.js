@@ -1,21 +1,17 @@
-$(() => {
-  $("form").submit((e) => {
-    var $form = $(this);
+$(function() {
+  $('form').submit(function(e) {
+    var form = $(this);
 
     $.ajax({
-      type: $form.attr("method"),
-      url: $form.attr("action"),
-      data: $form.serialize()
-    }).done(() => {
-      // Код, если форма успешно отправлена
-      // Например, alert о статусе
-
-      alert("Успешно!");
-    }).fail(() => {
-      // Код, если форма не отправлена
-      // Например, alert о статусе
-
-      alert("Failed");
+      type: form.attr('method'),
+      url: form.attr('action'),
+      data: form.serialize()
+    }).done(function() {
+      // code if form was successfully sent
+      alert('Success!');
+    }).fail(function() {
+      // code if form was failed
+      alert('Failed');
     });
     
     e.preventDefault();
