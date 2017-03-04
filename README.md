@@ -1,6 +1,6 @@
 # Ajax Form
 
-Simple script for submitting forms without reload page.
+Simple script for submitting forms without page reload.
 
 ## Example
 
