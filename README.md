@@ -4,7 +4,7 @@ Simple script for submitting forms without page reload.
 
 ## Example
 
-```
+```handlebars
 <form action="handler.php">
   <input type="text" placeholder="Who are you?">
   <input type="submit">
